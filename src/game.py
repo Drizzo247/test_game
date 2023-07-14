@@ -48,7 +48,7 @@ while True:
 
 
         if event.type == pygame.MOUSEBUTTONDOWN:player_gravity = -20
-        if player_retc.collidepoint():player_retc.y += player_gravity
+        if player_retc.collidepoint(80, 300):player_retc.y += player_gravity
 
 
 
